@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Метатег для адаптивной верстки-->
+	<meta name="keywords" content="малгобек, косметика, ингушетия">
+    <meta name="description" content="Сайт магазина косметики">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/leaflet.css">
+</head>
+<body class="page light-background">
+	
+	<!--Контент сайта-->
+	<div class="page-content">
+		<!--Навигационное меню-->
+		<div class="navigation-menu">
+			<div class="main-menu">
+			<ul class="menu-links">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog-pages/cream.html">Каталог</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>	
+			<div class="search"><input class="search-form" type="text" id="text-to-find" value="" placeholder="Искать здесь...">
+			<input type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/ class="search-button"></div>
+			<button class="theme-button" type="button">Изменить фон</button>
+			</div>
+		</div>
+		
+		<!--Контент главной страницы-->
+		<div class="main">
+			<!--Фото магазина-->
+			<div class="our-store">
+				<h1>Наш магазин</h1>
+				<div class="store-photo">				
+				<img src="img/slider/slider1.jpg" width="300px" height="200px">
+				<img src="img/slider/slider2.jpg" width="300px" height="200px">
+				<img src="img/slider/slider3.jpg" width="300px" height="200px">
+				</div>
+			</div>
+			<hr>
+			<!--О нас-->
+			<div class="about-us">
+				<h1>О нас</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem hic laboriosam asperiores, veniam quis iure, maxime labore fugit sunt eius praesentium eos inventore ad quaerat recusandae numquam quo tempora tempore repellendus iusto temporibus! Fugit voluptatibus, vel aliquam, voluptas consequatur impedit mollitia aliquid debitis molestiae atque pariatur, quibusdam. Nemo aut tenetur iste aspernatur eveniet aperiam veritatis iusto odio nesciunt dicta debitis nam sapiente laborum unde, quam officiis amet ipsum saepe fuga atque error eligendi commodi ipsam. Sapiente eaque, suscipit deserunt non distinctio, autem quis commodi? Fuga dolorum soluta placeat aut architecto mollitia facere aperiam blanditiis commodi nesciunt laboriosam totam vitae id, consectetur velit magni. Minima, deleniti. Numquam sint, quos enim aut facilis quasi cupiditate quae fugit quod nemo autem esse quas in molestias quaerat vero laborum excepturi, ducimus neque asperiores dolore. Similique accusamus repellendus beatae autem! Voluptatum, nostrum sapiente id maxime voluptatem, officiis accusantium, necessitatibus non dolores laboriosam hic quasi suscipit! Commodi suscipit consectetur, sed adipisci autem nisi consequatur minus ipsam totam. Exercitationem minima, consequuntur quo repellendus laboriosam maiores modi natus labore cumque quia animi, incidunt ad, et nihil accusamus nesciunt doloremque expedita fugiat. Unde beatae laudantium pariatur, hic consequuntur aspernatur fugit expedita quia officia perferendis, nobis, porro quisquam ad. Necessitatibus facere commodi fugit error cum rem odit maxime sit voluptatibus esse nisi consectetur quae placeat, iure aspernatur hic illum earum facilis sunt similique dolorum ratione rerum nemo! Dolorum, enim tempora quaerat similique nostrum dolores, voluptas nobis dolore velit quasi ab!</p>
+			</div>
+			<hr>
+			<!--Как нас найти, и отображение на карте-->
+			<div class="location">
+				<h1>Как нас найти?</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eaque, quia commodi architecto molestias neque praesentium nostrum est ab minima voluptate aperiam obcaecati ipsa, laudantium maiores dolore amet magni eos, recusandae molestiae voluptatibus quos. Dicta earum quas distinctio nisi nihil adipisci numquam, porro amet recusandae, eveniet ex odit aut illo.</p>
+			</div>
+			<div class="map">
+				<h2>Карта</h2>
+				<div class="geographic-map" id="mapid"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quibusdam repudiandae molestias, velit distinctio praesentium itaque, nulla quisquam sapiente obcaecati est tenetur vero beatae commodi.</p>
+			</div>
+		</div>
+		
+		<!--Подвал сайта-->
+		<div class="footer">
+			<div class="social-networks">
+				<img src="img/social-networks/instagram.png" width="50px" height="50px">
+				<img src="img/social-networks/whatsapp.png" width="50px" height="50px">
+				<img src="img/social-networks/mail.png" width="50px" height="50px">
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/leaflet1.js"></script>
+<script type="text/javascript" src="js/leaflet2.js"></script>
+<script type="text/javascript" src="js/themeSwitch.js"></script>
+	
+</body>
+</html>

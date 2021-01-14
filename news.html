@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Метатег для адаптивной верстки-->
+	<meta name="keywords" content="малгобек, косметика, ингушетия">
+    <meta name="description" content="Сайт магазина косметики">
+	<title>Новости</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="page light-background">
+	
+	<!--Контент сайта-->
+	<div class="page-content">
+		<!--Навигационное меню-->
+		<div class="navigation-menu">
+			<div class="main-menu">
+			<ul class="menu-links">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog-pages/cream.html">Каталог</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>	
+			<div class="search"><input class="search-form" type="text" id="text-to-find" value="" placeholder="Искать здесь...">
+			<input type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/ class="search-button"></div>
+			<button class="theme-button" type="button">Изменить фон</button>
+			</div>
+		</div>
+
+		<!--Новости-->
+		<div class="news">
+
+			<h1>Новости</h1>
+			<!--Новость-->
+			<div class="one-news">
+				<h2>Новая косметика</h2>
+				<hr>				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia similique alias quasi voluptates blanditiis quis, corporis aperiam maiores architecto incidunt cum harum magnam aliquid distinctio, non consectetur a itaque ad esse. Odio cum vitae laboriosam culpa, vel eos a rerum neque, sed recusandae iusto dignissimos odit minima iure, obcaecati inventore accusantium ex sit ipsam dicta esse illo molestiae. Rem, enim quis nisi quos voluptatum asperiores architecto voluptatibus commodi! Corporis magni dolores assumenda ullam provident unde, sequi, nesciunt praesentium molestiae quo explicabo necessitatibus iste, a repudiandae facilis quae adipisci excepturi sint laborum aliquid tempore. Magnam id cupiditate magni, quisquam error possimus tenetur unde hic explicabo voluptatibus consequatur fugiat incidunt voluptas officiis sequi, suscipit rerum corporis voluptates cumque. Nemo doloremque placeat, consectetur incidunt, consequuntur praesentium soluta sapiente odit atque qui eveniet nihil maxime voluptatum, dolore accusamus mollitia dolorum cumque quia deserunt possimus neque ab. Incidunt dolorum necessitatibus aliquam ut, aspernatur iste.</p>
+				<hr>
+				<!--Счетчик лайков новости-->
+				<div class="news-stats">
+          			<button class="heart" type="button"><span class="likes-number">9</span> ставь лайк &#9756;</button>
+          			<time datetime="2019-12-22">22 декабря 2019</time>
+        		</div>
+        		<hr>
+				<!--Комментарии новости-->
+				<div class="comment-feed">
+          			<h2>Комментарии</h2>
+          			<ol class="comment-list">
+            			<li class="user-comment">Да ну, бред какой-то…</li>
+          			</ol>
+          			<form action="#" method="post" class="comment-form">
+            			<div class="comment-inner">
+              				<label class="comment-label" for="comment-input">ваш комментарий</label>
+              				<textarea class="comment-field" rows="3" placeholder="Комментарий" required id="comment-textarea"></textarea>
+            			</div>
+            			<span class="text-counter">Использовано <span class="char-counter">0</span>/142 символов</span>
+            			<button class="submit-button" type="submit">Отправить</button>
+          			</form>
+        		</div>
+			</div>
+
+		</div>
+		
+		<!--Подвал сайта-->
+		<div class="footer">
+			<div class="social-networks">
+				<img src="img/social-networks/instagram.png" width="50px" height="50px">
+				<img src="img/social-networks/whatsapp.png" width="50px" height="50px">
+				<img src="img/social-networks/mail.png" width="50px" height="50px">
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/themeSwitch.js"></script>
+<script type="text/javascript" src="js/likeCounter.js"></script>
+<script type="text/javascript" src="js/commentsNews.js"></script>
+	
+</body>
+</html>

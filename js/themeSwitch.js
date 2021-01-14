@@ -1,0 +1,9 @@
+let page = document.querySelector('.page');
+let themeButton = document.querySelector('.theme-button');
+
+themeButton.onclick = function() {
+  page.classList.toggle('light-background');
+  page.classList.toggle('dark-background');
+};
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Метатег для адаптивной верстки-->
+	<meta name="keywords" content="малгобек, косметика, ингушетия">
+    <meta name="description" content="Сайт магазина косметики">
+	<title>Контакты</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="page light-background">
+	
+	<!--Контент сайта-->
+	<div class="page-content">
+		<!--Навигационное меню-->
+		<div class="navigation-menu">
+			<div class="main-menu">
+			<ul class="menu-links">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog-pages/cream.html">Каталог</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>	
+			<div class="search"><input class="search-form" type="text" id="text-to-find" value="" placeholder="Искать здесь...">
+			<input type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/ class="search-button"></div>
+			<button class="theme-button" type="button">Изменить фон</button>
+			</div>
+		</div>
+		
+		<!--Страница контакты-->
+		<div class="contacts">
+		<!--Главный контакт-->	
+		
+			<h1>Наши контакты:</h1>
+			<div class="main-contacts">
+			<h2>Пуанкаре Индира Ахметова </h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem enim quasi unde, amet voluptas aspernatur quos nesciunt dolore quis aliquid consequuntur nihil voluptates fuga, officia id excepturi repudiandae sequi. Laboriosam magnam nemo quasi, sapiente rerum dolorum illo, tempore voluptates id atque corporis ipsam necessitatibus dolorem provident eos totam in.</p>
+			<h3>8-800-555-35-35</h3>
+			<img src="img/social-networks/instagram.png" width="50px" height="50px">
+			<img src="img/social-networks/mail.png" width="50px" height="50px">
+			<img src="img/social-networks/whatsapp.png" width="50px" height="50px">
+		</div>
+		<!--Форма подписки на рассылку-->
+		<div class="subscription-form">
+		<h1>Подпишитесь на нашу рассылку</h1>
+        <p class="subscription-message">Обещаем присылать вам новости не чаще одного раза в день, причём только самые интересные и важные.</p>
+		<form action="#" method="post" class="subscription">
+			<div class="subscription-inner">
+            	<label class="subscription-label" for="subscription-email">email:</label>
+            	<input type="email" class="subscription-email" placeholder="Введите свой @mail" value="" required id="subscription-email">
+            </div>
+			<button class="subscription-button" type="submit">Подписаться</button>
+        </form>
+        </div>
+        </div>
+		
+		<!--Подвал сайта-->
+		<div class="footer">
+			<div class="social-networks">
+				<img src="img/social-networks/instagram.png" width="50px" height="50px">
+				<img src="img/social-networks/whatsapp.png" width="50px" height="50px">
+				<img src="img/social-networks/mail.png" width="50px" height="50px">
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/themeSwitch.js"></script>
+<script type="text/javascript" src="js/mailingForm.js"></script>
+	
+</body>
+</html>
